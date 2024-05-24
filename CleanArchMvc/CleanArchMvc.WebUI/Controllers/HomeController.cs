@@ -1,4 +1,4 @@
-﻿using CleanArchMvc.WebUI.Models;
+﻿using CleanArchMVC.WebUI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CleanArchMvc.WebUI.Controllers
+namespace CleanArchMVC.WebUI.Controllers
 {
     public class HomeController : Controller
     {

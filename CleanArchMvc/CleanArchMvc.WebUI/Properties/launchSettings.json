@@ -3,8 +3,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:59658",
-      "sslPort": 44336
+      "applicationUrl": "http://localhost:26870",
+      "sslPort": 44342
     }
   },
   "profiles": {
@@ -16,7 +16,7 @@
         "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation"
       }
     },
-    "CleanArchMvc.WebUI": {
+    "CleanArchMVC.WebUI": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,
