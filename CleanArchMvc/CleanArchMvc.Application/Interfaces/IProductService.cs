@@ -12,10 +12,10 @@ namespace CleanArchMVC.Application.Interfaces
 
         Task<ProductDTO> GetProductCategory(int? id);
 
-        Task Add (ProductDTO productDTO);
+        Task Add(ProductDTO productDTO);
 
-        Task Update (ProductDTO productDTO);
+        Task Update(ProductDTO productDTO);
 
-        Task Remove (int? id);
+        Task Remove(int? id);
     }
 }
