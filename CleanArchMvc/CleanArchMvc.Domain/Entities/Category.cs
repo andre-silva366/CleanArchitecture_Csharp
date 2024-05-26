@@ -13,12 +13,12 @@ namespace CleanArchMVC.Domain.Entities
         }
 
         // apenas para poder popular a tabela
-        public Category(int id, string name)
-        {
-            DomainExceptionValidation.When(id <= 0, "Invalid Id value.");
-            Id = id;
-            ValidateDomain(name);
-        }
+        //public Category(int id, string name)
+        //{
+        //    DomainExceptionValidation.When(id < 0, "Invalid Id value.");
+        //    Id = id;
+        //    ValidateDomain(name);
+        //}
 
         public void Update(string name)
         {
