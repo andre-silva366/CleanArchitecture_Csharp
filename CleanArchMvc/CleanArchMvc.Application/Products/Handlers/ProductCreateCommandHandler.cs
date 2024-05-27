@@ -24,6 +24,7 @@ namespace CleanArchMvc.Application.Products.Handlers
             else
             {
                 product.CategoryId = request.CategoryId;
+                
                 return await _productRepository.CreateAsync(product);
             }
         }
