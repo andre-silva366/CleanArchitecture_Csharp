@@ -1,7 +1,3 @@
-Claro! Vou criar um README para o seu projeto Clean Architecture baseado na estrutura do projeto mostrada na captura de tela e com a menção ao curso do José Macoratti. 
-
----
-
 # CleanArchMvc
 
 ![.NET Core](https://img.shields.io/badge/.NET-5/6/7/8-blue)
