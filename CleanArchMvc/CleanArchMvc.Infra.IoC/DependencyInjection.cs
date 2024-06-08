@@ -1,4 +1,5 @@
-﻿using CleanArchMvc.Domain.Account;
+﻿using AutoMapper;
+using CleanArchMvc.Domain.Account;
 using CleanArchMvc.Infra.Data.Identity;
 using CleanArchMVC.Application.Interfaces;
 using CleanArchMVC.Application.Mappings;
@@ -39,7 +40,7 @@ namespace CleanArchMVC.Infra.IoC
             services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
 
             var myHandlers = AppDomain.CurrentDomain.Load("CleanArchMvc.Application");
-            services.AddMediatR(myHandlers);
+            services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(myHandlers));
 
             return services;
         }
